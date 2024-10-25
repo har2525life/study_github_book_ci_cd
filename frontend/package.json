@@ -42,6 +42,6 @@
     "node": ">=20.0.0"
   },
   "lint-staged": {
-    "*.{ts,tsx}": "eslint --fix"
+    "*.{ts,tsx}": ["eslint --fix", "prettier --write"]
   }
 }
