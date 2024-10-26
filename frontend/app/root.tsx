@@ -25,9 +25,6 @@ export const links: LinksFunction = () => [
 
 
     href: "https://fonts.googleapis.com/c
-    
-    
-    
     ss2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
   },
 ];
