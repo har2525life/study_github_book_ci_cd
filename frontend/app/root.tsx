@@ -13,7 +13,16 @@ export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
     rel: "preconnect",
-    href: "https://fonts.gstatic.com",
+    href: "https://fonts.
+    gstatic.com",
+
+
+
+
+
+
+
+
     crossOrigin: "anonymous",
   },
   {
