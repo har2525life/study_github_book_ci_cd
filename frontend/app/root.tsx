@@ -31,7 +31,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
                     name="viewp
                     
                     
-                    ort"
+                    ort
+                    "
                     content="width=device-width, initial-scale=1"
                 />
                 <Meta />
