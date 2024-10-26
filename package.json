@@ -1,0 +1,22 @@
+{
+    "name": "study_github_book_ci_cd",
+    "version": "1.0.0",
+    "description": "ここでやること\r - github actionにてCI/CDで自動テストをする\r - tscのチェックをする\r - biomeチェックする\r todoリストでjestのテストを行う\r mswでapiをモック化\r fakerでモックデータを作成する",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "husky": "^9.1.6",
+        "lint-staged": "^15.2.10"
+    },
+    "lint-staged": {
+        "*.{ts,tsx}": [
+            "eslint --fix",
+            "prettier --write"
+        ]
+    }
+}
